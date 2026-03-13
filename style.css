@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(182, 225, 253);
+    text-align:center;
+    text-align:center;
+
+
+
+    font-family: 'Chango', cursive;
+    color: #4a8df1;
+}
+
+
+h1 { color: #62a6e6; }  /* Sets color for all H1 headings */
+h1 {
+    font-family: 'MyCustomFont', cursive; /* 'MyCustomFont' must match the name in step 2 */
+    color: #62a6e6;
+  }
+
+
+h2 {a{
+    color:rgb(247, 162, 52);
+    text-decoration:none;
+}
+/*When hover, the link changes color*/
+a:hover{
+    color:cornflowerblue;
+    text-decoration:underline;
+}}
+h2 {
+    font-family: 'MyCustomFont', cursive; /* 'MyCustomFont' must match the name in step 2 */
+    color: #ff75a3;
+  }
+
+
+  h3 {
+    font-family: 'Chango', cursive; /* 'MyCustomFont' must match the name in step 2 */
+    color: #ff75a3;
+  }
+  h3 { color: rgb(255, 91, 132); }
+
+
+        body {
+            color: rgb(241, 79, 155);
+        }
+
+
+        /* The Bobbing Animation Logic for the cat cafe */
+        @keyframes bob {
+            0% { transform: translateY(-920px); }
+            50% { transform: translateY(-980px); } /* Moves up 20 pixels */
+            100% { transform: translateY(-920px); }
+        }
+
+
+        /* Applying the animation to the Cafe */
+        #CatCafe {
+            animation: bob 3s ease-in-out infinite;
+        }
+
+        /* The Bobbing Animation Logic for the point */
+        @keyframes pin {
+            0% { transform: translateY(-200px); }
+            50% { transform: translateY(-180px); } /* Moves up 20 pixels */
+            100% { transform: translateY(-200px); }
+        }
+
+
+        /* Applying the animation to the point */
+        #Pinpoint {
+            animation: pin 3s ease-in-out infinite;
+        }
+/* _______________________________________________________________________ */
+
+        @font-face {
+            font-family: 'MyCustomFont';
+            src: url('Chango/Chango-Regular.ttf'); /* Make sure this matches your filename exactly! */
+          }
+
+
+          @font-face {
+            font-family: 'Chango';
+            src: url('Poiret_One/PoiretOne-Regular.ttf'); /* Make sure this matches your filename exactly! */
+          }
+           /* The SPINNING  Animation Logic */
+        @keyframes u {
+            0% { transform: translateY(-570px); }
+            50% { transform: translateY(-520px); } /* Moves up 20 pixels */
+            100% { transform: translateY(-570px); }
+
+
+        }
+
+
+
